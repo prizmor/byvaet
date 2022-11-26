@@ -8,7 +8,7 @@ const client = new Client({
     ]
 })
 
-const TOKEN = "MTA0NjE4NzI2NDU3MDU3Mjg3MQ.G8Msck.1NG3-a-ceqD9hldSRO6PGS7loTZ5lHSapBKenw";
+const TOKEN = process.env.BOT_TOKEN;
 
 const byvaet = ["бывает", ",sdftn", ",SDFTN", "БЫВАЕТ", "бывет"];
 
