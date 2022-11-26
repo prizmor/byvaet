@@ -20,7 +20,7 @@ client.on("messageCreate", async (message) => {
     if (message.author.discriminator === client.user.discriminator) return;
 
     for (let i = 0; i < byvaet.length; i++) {
-        if (message.content.toLocaleUpperCase().indexOf(byvaet[i].toLocaleUpperCase()) !== -1) {
+        if (message.content.toUpperCase().indexOf(byvaet[i].toUpperCase()) !== -1) {
             return message.reply("https://cdn.discordapp.com/attachments/1014783512731193356/1046163144390746133/image.png");
         }
     }
