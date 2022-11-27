@@ -10,7 +10,7 @@ const client = new Client({
 
 const TOKEN = process.env.BOT_TOKEN;
 
-const byvaet = ["бывает", ",sdftn", ",SDFTN", "БЫВАЕТ", "бывет", "Бывет"];
+const byvaet = ["бывает", ",sdftn", ",SDFTN", "БЫВАЕТ", "бывет", "Бывет", "бывaeт", "бываeт", "бывaет", "бивает", "биваeт", "бивaет"];
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
